@@ -1,0 +1,58 @@
+.navbar ul{
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.heading{
+    font-size: 1.3rem;
+}
+
+.gallery img{
+    width: 270px;
+    height: 360px;
+}
+
+.about{
+    flex-direction: column;
+}
+
+.about h2{
+    text-align: center;
+}
+
+.about img{
+    width: 200px;
+    height: 150px;
+    padding: 0px 15px;
+}
+
+.message{
+    width: 40%;
+    height: 200px;
+}
+.box{
+    height: 140px;
+    width: 280px;
+    background-color: rgb(154, 177, 183);
+    border-radius: 35px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-style: dashed;
+}
+
+.box h2{
+    color: rgb(46, 36, 183);
+    font-size: 33px;
+    margin-bottom: 40px;
+}
+
+.box p{
+    color: rgb(59, 64, 73);
+    font-size: 18px;
+}
+
+.about img:hover{
+    width: 250px;
+    height: 250px;
+}
